@@ -1,15 +1,25 @@
 .orange-style{
-    color:orange;
+    color:orange;   
 }
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0px;
 }
 img{
     width: 100%;
 }
 .button-color{
     text-decoration:none;
-    color:rgb(0, 255, 106);
+    background-color: darkorange;
+    padding:10px 20px;
+    border: 2px;
+    border-radius:10px;
+    color:ghostwhite;
+    font-size:20px;
+}
+.popup:hover{
+    color:rgb(102, 0, 255);
+    font-family: cursive;
 }
 
 .step-one{
@@ -18,4 +28,50 @@ img{
     margin-left:4%;
     padding: 3%;
 }
- 
+.top-bar{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    margin-bottom:100px;
+    
+} 
+.mid-bar{
+    background-image: url("images/dream.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.expri{
+    text-align:center;
+    color:rgb(0, 255, 98);
+}
+.final{
+    box-shadow: 10px 10px 40px skyblue;
+    border-radius: 10px;
+    height:40%;
+    
+}
+.end-bar{
+    background-image:url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+
+}
+#full-stack{
+    border-bottom:7px solid;
+    border-image:linear-gradient(90deg,green,blue);
+    border-image-slice: 1;
+}
+#full{
+    border-bottom:7px solid;
+    border-image:linear-gradient(90deg,red,blue);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:50px;
+    background-color:black;
+    color:white;
+}

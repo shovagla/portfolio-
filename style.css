@@ -1,48 +1,21 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin:0;
-}
-h1{
-    font-size:25px;
-}
-.name_style{
+.orange-style{
     color:orange;
 }
-.half-width{
-    width: 40%;
-    float:left;
-    margin-left: 4%;
-    padding:3%;
-    font-size:large;
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.half-width img{
-    width:90%;
+img{
+    width: 100%;
 }
-.top-banner{
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
-}
-section{
-    height: 100px;
-    
-}
-.button-decoration{
+.button-color{
     text-decoration:none;
-    color:white;
-    background-image: linear-gradient(skyblue,blue);
-    border:10px 30px;
-    border-radius:5px;
+    color:rgb(0, 255, 106);
 }
-.button-decoration:hover{
-    color:yellow;
-    font-weight: bold;
-}
-.mid-width{
+
+.step-one{
     width:40%;
     float:left;
     margin-left:4%;
-    padding-left:2%;
+    padding: 3%;
 }
-.mid-width img{
-    width: 80%;
-}
+ 
